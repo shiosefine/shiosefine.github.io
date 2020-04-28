@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+body{
+    margin: 0 0 0 0;
+    color: #FFFFFF;
+    background-color: #000000;
+    font-size: 0;
+}
+a:link {
+    color: #2EA0AB;
+}
+a:visited {
+    color: #2EA0AB;
+}
+/* ヘッダー はじめ */
+#head {
+    margin: calc(100vh - 140px) 0px 0px 0px;
+    padding: 20px 40px 20px 40px;
+    background-color: #1E909B;
+    border-radius: 60px;
+    width: calc(100% - 80px);
+    height: 100px;
+    position: absolute;
+    font-size: 1rem;
+}
+.avater {
+    background-image: url("/introduce/image/avater.jpg");
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    margin: 0;
+    border-radius: 50px;
+    background-position: center;
+    display: inline-block;
+    vertical-align:  middle;
+}
+.namespace {
+    display: inline-block;
+    vertical-align:  middle;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.name {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+.subname { 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* ヘッダー　終わり */
+.first {
+    font-size: 1rem;
+    font-size: 64pt;
+    background-image: url("/introduce/image/sea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-clip: content-box;
+    margin: 0px;
+    width: 100%;
+    height: calc(100vh - 70px);
+}
+.second {
+    margin: 0px;
+    background-color: #101010;
+    width: 100%;
+    font-size: 1rem;
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+.second table{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 10px;
+}
+.second th {
+    background-color: #303030;
+    border-radius: 8px;
+    padding: 8px;
+    font-weight: normal;
+}
